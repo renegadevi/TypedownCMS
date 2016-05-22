@@ -1,7 +1,7 @@
 # Typedown CMS
 Flat-File Markdown CMS built with Python 3
 
-![Screenshot](http:/i.imgur.com/54kntZi.png)
+![Screenshot](http://i.imgur.com/54kntZi.png)
 
 
 ## Hello there, Welcome
