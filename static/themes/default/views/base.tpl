@@ -48,6 +48,7 @@
         <link rel="stylesheet" media="all" type="text/css" href="{{ GLOBAL_THEME_PATH }}/css/normalize-4.1.1.css"/>
         <link rel="stylesheet" media="screen" type="text/css" href="{{ GLOBAL_THEME_PATH }}/css/screen.css"/>
         <link rel="stylesheet" media="print" type="text/css" href="{{ GLOBAL_THEME_PATH }}/css/print.css"/>
+        <link rel="stylesheet" media="print" type="text/css" href="{{ GLOBAL_THEME_PATH }}/css/github-markdown.css"/>
 
         <!-- Favicon
 
