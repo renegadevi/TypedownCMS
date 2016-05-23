@@ -536,10 +536,12 @@ if __name__ == '__main__':
 
     @app.route('/static/<filepath:path>')
     def get_static(filepath):
-        return core.static_file(
+        response = core.static_file(
             filepath,
             root='{}static'.format(cfg['path']['ROOT'])
         )
+        response.set_header("Cache-Control", "public, max-age=604800")
+        return response
 
     @app.route('/favicon.ico')
     def get_favicon():
