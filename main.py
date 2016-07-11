@@ -11,7 +11,7 @@
 # such as Markdown, RSS and Jinja2 templates.
 #
 
-__author__ = "Philip Andersen <renegadevi@codeofmagi.net>"
+__author__ = "Philip Andersen <philip.andersen@codeofmagi.net>"
 __license__ = "MIT"
 __version__ = "1.0"
 __copyright__ = "Copyright 2016 (c) Philip Andersen"
