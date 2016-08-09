@@ -50,7 +50,7 @@ git clone https://github.com/renegadevi/TypedownCMS.git
 cd TypedownCMS
 
 # Create virtual (isolated) enviroment
-virtualenv -p /usr/bin/python3 vent
+virtualenv -p /usr/bin/python3 venv
 
 # Enable enviroment
 source venv/bin/activate
