@@ -10,6 +10,7 @@
 # management system. It's built upon Bottle Web Framework and using techniques
 # such as Markdown, RSS and Jinja2 templates.
 #
+# TODO: Add support for h1/h2 alternative header syntax === ---
 
 __author__ = "Philip Andersen <philip.andersen@codeofmagi.net>"
 __license__ = "MIT"
