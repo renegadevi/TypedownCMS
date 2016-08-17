@@ -4,7 +4,7 @@ Flat-File Markdown CMS built with Python 3
 ![Screenshot](http://i.imgur.com/54kntZi.png)
 
 ## Features
-* Markdown 
+* Markdown
 * Flat-file + Cloud-sync
 * Disqus
 * Statistics
@@ -15,7 +15,7 @@ Flat-File Markdown CMS built with Python 3
 * FOSS
 
 ## Hello there, Welcome
-I started out this project as a simple markdown document reader for my self as there was a lot of alternatives out there but I wanted something that would make publishing simple. A flat-file markdown is a great idea.  This is my first project with  Bottle as a Micro Web Framework for Python 3 and I liked it, during it's development it evolved into a CMS with a lot more features but still keep things simple, flexible and flat-file.  
+I started out this project as a simple markdown document reader for my self as there was a lot of alternatives out there but I wanted something that would make publishing simple. A flat-file markdown is a great idea.  This is my first project with  Bottle as a Micro Web Framework for Python 3 and I liked it, during it's development it evolved into a CMS with a lot more features but still keep things simple, flexible and flat-file.
 
 – Philip Andersen (renegadevi)
 
