@@ -15,7 +15,7 @@
 __author__ = "Philip Andersen <philip.andersen@codeofmagi.net>"
 __license__ = "MIT"
 __version__ = "1.0"
-__copyright__ = "Copyright 2016 (c) Philip Andersen"
+__copyright__ = "Copyright 2016-2017 (c) Philip Andersen"
 
 
 """
