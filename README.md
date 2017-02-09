@@ -27,7 +27,7 @@ the only requirement is Python3 which is the now and the future of Python langua
 | Ubuntu 16.04 LTS	| 3.4.3				|
 | CentOS 7			| 3.4.3 			|
 | FreeBSD 10.2		| 3.4.4				|
-| OSX El Capitan	| 3.4.3				|
+| OSX El Capitan	| 3.4.3	+ 3.6.0     |
 
 ### Quickstart (TL;DR)
 1. Clone repo
