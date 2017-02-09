@@ -349,11 +349,8 @@ class Page:
 
 class Site:
 
-    def get_menu(links=True):
+    def get_menu(links={}):
         """ Return a dict with links """
-
-        # Create a dict container
-        links = {}
 
         # Crawl pages
         for page in sorted(glob.glob(cfg['path']['PAGES'] + '*.md')):
