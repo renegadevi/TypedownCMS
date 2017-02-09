@@ -44,7 +44,7 @@ the only requirement is Python3 which is the now and the future of Python langua
 sudo apt-get install -y python3-pip virtualenv git
 
 # Clone git repo
-git clone https://github.com/renegadevi/TypedownCMS.git
+git clone https://gitlab.com/renegadevi/TypedownCMS.git
 
 # Enter folder
 cd TypedownCMS
@@ -75,7 +75,7 @@ chmod +x main.py
 brew install python3 git
 
 # Clone git repo
-git clone https://github.com/renegadevi/TypedownCMS.git
+git clone https://gitlab.com/renegadevi/TypedownCMS.git
 
 # Enter folder
 cd TypedownCMS
@@ -112,7 +112,7 @@ curl -O https://bootstrap.pypa.io/get-pip.py
 sudo yum install -y python-virtualenv git
 
 # Clone git repo
-git clone https://github.com/renegadevi/TypedownCMS.git
+git clone https://gitlab.com/renegadevi/TypedownCMS.git
 
 # Enter folder
 cd TypedownCMS
