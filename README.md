@@ -15,19 +15,14 @@ Flat-File Markdown CMS built with Python 3
 * FOSS
 
 ## Hello there, Welcome
-I started out this project as a simple markdown document reader for my self as there was a lot of alternatives out there but I wanted something that would make publishing simple. A flat-file markdown is a great idea.  This is my first project with  Bottle as a Micro Web Framework for Python 3 and I liked it, during it's development it evolved into a CMS with a lot more features but still keep things simple, flexible and flat-file.
-
-– Philip Andersen (renegadevi)
+I started out this project as a simple markdown document reader for my self as there was a lot of alternatives out there but I wanted something that would make publishing simple. This is my first project with  Bottle as a Micro Framework for Python 3 and I liked it, during it's development it evolved into a CMS with a lot more features but still keep things simple, flexible and flat-file.
 
 ## Installation
 the only requirement is Python3 which is the now and the future of Python language. It has been tested on following systems. See install-guides for Ubuntu, CentOS and OSX El Capitan down below including how to install python3.
 
 | OS				| Python version	|
 | :-----------------|------------------:|
-| Ubuntu 16.04 LTS	| 3.4.3				|
-| CentOS 7			| 3.4.3 			|
-| FreeBSD 10.2		| 3.4.4				|
-| OSX El Capitan	| 3.4.3	+ 3.6.0     |
+| MacOS Mojave      | 3.7.3             |
 
 ### Quickstart (TL;DR)
 1. Clone repo
@@ -37,35 +32,7 @@ the only requirement is Python3 which is the now and the future of Python langua
 5. Locate to [http://localhost:8080/](http://localhost:8080/ "http://localhost:8080/")
 
 
-### Installation guide: Ubuntu 16.04 LTS
-
-```sh
-# Install required packages
-sudo apt-get install -y python3-pip virtualenv git
-
-# Clone git repo
-git clone https://gitlab.com/renegadevi/TypedownCMS.git
-
-# Enter folder
-cd TypedownCMS
-
-# Create virtual (isolated) enviroment
-virtualenv -p /usr/bin/python3 venv
-
-# Enable enviroment
-source venv/bin/activate
-
-# Install required modules
-pip3 install -r requirements.txt
-
-# Make app executable
-chmod +x main.py
-
-# Run server
-./main.py
-```
-
-### Installation guide: OS X El Capitan
+### Installation guide: MacOS Mojave
 
 ```sh
 # Install Brew package manager
@@ -80,48 +47,8 @@ git clone https://gitlab.com/renegadevi/TypedownCMS.git
 # Enter folder
 cd TypedownCMS
 
-# Create virtual (isolated) enviroment
-virtualenv -p /usr/bin/python3 venv
-
-# Enable enviroment
-source venv/bin/activate
-
-# Install required modules
-pip3 install -r requirements.txt
-
-# Make app executable
-chmod +x main.py
-
-# Run server
-./main.py
-```
-
-### Installation CentOS 7
-
-```sh
-# We need to grab the EPEL that contains extra-packages such as python3
-sudo yum install -y epel-release
-
-# Install Python 3
-sudo yum install -y python34
-
-# Install pip
-curl -O https://bootstrap.pypa.io/get-pip.py
-
-# Install virtualenv and git
-sudo yum install -y python-virtualenv git
-
-# Clone git repo
-git clone https://gitlab.com/renegadevi/TypedownCMS.git
-
-# Enter folder
-cd TypedownCMS
-
-# Update virtualenv to be compatable with Python3
-sudo pip install --upgrade virtualenv
-
-# Create virtual (isolated) enviroment
-virtualenv -p /usr/bin/python3 venv
+# Create a virtual (isolated) enviroment
+virtualenv -p /usr/local/bin/python3 venv
 
 # Enable enviroment
 source venv/bin/activate
