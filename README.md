@@ -66,7 +66,7 @@ chmod +x main.py
 ## Getting Started (post-installation)
 
 ### Configuration and setup
-Now when you have TypedownCMS up and running, you can start using the CMS and make changes. There's a global configuration file named "***settings.cfg"*** where you can set settings very easy. For a specific walktrough for each setting, check our post over at ***(TODO)***. After you have saved the settings, the changes updates next time you visit the home/main page of your website.
+Now when you have TypedownCMS up and running, you can start using the CMS and make changes. There's a global configuration file named "***settings.cfg"*** where you can set settings very easy. After you have saved the settings, the changes updates next time you visit the home/main page of your website.
 
 #### Server settings (optional)
 
