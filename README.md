@@ -20,9 +20,10 @@ I started out this project as a simple markdown document reader for my self as t
 ## Installation
 the only requirement is Python3 which is the now and the future of Python language. It has been tested on following systems. See install-guides for Ubuntu, CentOS and OSX El Capitan down below including how to install python3.
 
-| OS				| Python version	|
-| :-----------------|------------------:|
-| MacOS Mojave      | 3.7.3             |
+| OS				   | Python version	   |
+| :--------------------|------------------:|
+| Ubuntu 18.04.2 LTS   | 3.6.7             |
+| MacOS 10.14 (Mojave) | 3.7.3             |
 
 ### Quickstart (TL;DR)
 1. Clone repo
@@ -31,6 +32,35 @@ the only requirement is Python3 which is the now and the future of Python langua
 4. Run main.py
 5. Locate to [http://localhost:8080/](http://localhost:8080/ "http://localhost:8080/")
 
+
+
+### Installation guide: Ubuntu 18.04.2 LTS
+
+```sh
+# Install required packages
+sudo apt install -y python3-pip virtualenv git
+
+# Clone git repo
+git clone https://gitlab.com/renegadevi/TypedownCMS.git
+
+# Enter folder
+cd TypedownCMS
+
+# Create virtual (isolated) enviroment
+virtualenv -p /usr/bin/python3 venv
+
+# Enable enviroment
+source venv/bin/activate
+
+# Install required modules
+pip3 install -r requirements.txt
+
+# Make app executable
+chmod +x main.py
+
+# Run server
+./main.py
+```
 
 ### Installation guide: MacOS Mojave
 
