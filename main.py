@@ -331,9 +331,7 @@ class Page:
 
                 # Convert markdown
                 if convert_markdown:
-                    content = markdown.markdown(
-                        page.read(), ['markdown.extensions.extra']
-                    )
+                    content = markdown.markdown(page.read())
                 else:
                     content = page.read()
 
