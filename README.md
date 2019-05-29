@@ -46,10 +46,10 @@ git clone https://gitlab.com/renegadevi/TypedownCMS.git
 # Enter folder
 cd TypedownCMS
 
-# Create virtual (isolated) enviroment
+# Create virtual (isolated) environment
 virtualenv -p /usr/bin/python3 venv
 
-# Enable enviroment
+# Enable environment
 source venv/bin/activate
 
 # Install required modules
@@ -77,10 +77,10 @@ git clone https://gitlab.com/renegadevi/TypedownCMS.git
 # Enter folder
 cd TypedownCMS
 
-# Create a virtual (isolated) enviroment
+# Create a virtual (isolated) environment
 virtualenv -p /usr/local/bin/python3 venv
 
-# Enable enviroment
+# Enable environment
 source venv/bin/activate
 
 # Install required modules
@@ -100,7 +100,7 @@ Now when you have TypedownCMS up and running, you can start using the CMS and ma
 
 #### Server settings (optional)
 
-Default settings is setup as a development-enviroment where your local machine has access to it from your browser via the localhost address. When you move to Testing, by setting the domain to 0.0.0.0 your computer will be reacable by your IP-adress on your local network by other devices, example: http://192.168.1.102:8080/.
+Default settings is setup as a development-environment where your local machine has access to it from your browser via the localhost address. When you move to Testing, by setting the domain to 0.0.0.0 your computer will be reacable by your IP-adress on your local network by other devices, example: http://192.168.1.102:8080/.
 
 When your site is done and ready for production, change the domain to whatever domain you want it to be (or IP) and by changing the port from 8080 to 80 you do not need to type the port, however you need admin (root) privileges to use it.  So you would have to run `sudo ./main.py` insted of just `./main.py`
 
