@@ -23,6 +23,7 @@ the only requirement is Python3 which is the now and the future of Python langua
 | OS				   | Python version	   |
 | :--------------------|------------------:|
 | Ubuntu 18.04.2 LTS   | 3.6.7             |
+| Ubuntu 19.10         | 3.7.5rc1          |
 | MacOS 10.14 (Mojave) | 3.7.3             |
 
 ### Quickstart (TL;DR)
@@ -34,7 +35,7 @@ the only requirement is Python3 which is the now and the future of Python langua
 
 
 
-### Installation guide: Ubuntu 18.04.2 LTS
+### Installation guide: Ubuntu 18.04.2 LTS + Ubuntu 19.10
 
 ```sh
 # Install required packages
